@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import { navBar, mainBody, about, leadership, works, skills, experiences } from "./config/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -50,11 +50,11 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
+    <HashRouter basename={process.env.PUBLIC_URL + "/"}>
+      <Navbar ref={titleRef} />
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
