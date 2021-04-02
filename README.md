@@ -1,217 +1,77 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <h1 align="center">Developer's Portfolio ✨</h1>
+# Technology LandingPage
 
-  <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a>
-    <br />
-    <br />
-    <a href="https://hashirshoaeb.com">About Me</a>
-    ·
-    <a href="https://github.com/hashirshoaeb/home/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/hashirshoaeb/home/issues">Request Feature</a>
-  </p>
-</p>
+This is a landingpage of science and technology products. The design is atmospheric, the code is developed based on [react](https://reactjs.org/) and [particles-bg](https://github.com/lindelof/particles-bg), and it has good scalability.
 
-![GitHub contributors](https://img.shields.io/github/contributors/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
-[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/star_book/network)
-[![GitHub issues](https://img.shields.io/github/issues/hashirshoaeb/home?color=ffcc66&style=for-the-badge)](https://github.com/hashirshoaeb/star_book/issues)
-[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
+[**Check out the demo**](https://wonderfullandingpage.github.io/Technology-LandingPage/)
 
-[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/)
+![Node.js CI](https://github.com/dunky11/react-saas-template/workflows/Node.js%20CI/badge.svg)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=dunky11/react-saas-template)](https://dependabot.com)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-## Table of Contents
+![](https://github.com/wonderfullandingpage/Technology-LandingPage/blob/master/public/images/a1.jpg?raw=true)
 
-- [Technology Stack 🛠️](#technology-stack-)
-- [Structure ⚓](#structure-)
-- [Sharing 💗](#sharing-)
-- [Prerequisites 🍪](#prerequisites-)
-- [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
-- [Issues](#issues)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
-- [Showcase 🚀](#showcase-)
-- [Versão em Português :brazil:](#versao-em-portugues-)
+![](https://github.com/wonderfullandingpage/Technology-LandingPage/blob/master/public/images/a2.jpg?raw=true)
 
-## Technology Stack 🛠️
+The project forks from [here](https://github.com/dunky11/react-saas-template/) thanks to the original author.
 
-Dependencies defined in package.json:
+## Getting Started
 
-[Reactjs](https://reactjs.org/)
-| [Bootstrap](https://getbootstrap.com/)
-| [Typist](https://github.com/jstejada/react-typist)
-| [GitHub API](https://developer.github.com/v3/repos/)
-| [Instagram API](https://www.instagram.com/developer/embedding/)
+### Prerequisites
 
-## Structure ⚓
+#### Node.js 12+ (versions below could work, but are not tested)
 
-- Navigation bar (optional)
-- Body
-  - Name | Profession
-  - Contact / Follow / Find me / Facebook / LinkedIn / GitHub / Instagram / Email / CodePen
-  - Resume | About me
-- About Me
-  - Display picture (optional)
-  - About myself, my Interests, Goals and Hobbies
-  - Things I'm good at (Skills)
-  - Resume button
-- Recent Projects (using GitHub API) (optional)
-- Leadership (optional)
-  - Paragraph
-  - Carousel images
-- Skills (optional)
-  - Technical Skills
-  - Soft Skills
-- Footer
-  - Footer Note (optional)
-  - Copyrights - open source
-  - Acknowledgements(
+* Linux:
 
-## Sharing 💗
-
-Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
-
-## Prerequisites 🍪
-
-You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
-
-## Setup And Deployment 🔧
-
-1. To Get Started, Fork this repository to your GitHub account:
-2. Clone the forked repo from your account using:
-
-   ```bash
-     git clone https://github.com/<your-username>/home.git
+   ```
+   sudo apt install nodejs npm
    ```
 
-3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
+* Windows or macOS:
 
-4. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
+   https://nodejs.org/en/
 
-5. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
-6. Change URL in [package.json](./package.json) file:
+### Installing
 
-   ```json
-    "homepage": "https://<your-username>.github.io/home"
+1. Clone the repository
+
    ```
+   git clone https://github.com/wonderfullandingpage/Technology-LandingPage
+   ```
+2. Install dependencies, this can take a minute
 
-   Or for deployment at custom domain, refer [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
+   ```
+   cd Technology-LandingPage
 
-7. After editing run the following bash commands:
-
-   ```bash
    npm install
+   ```
+3. Start the local server
+
+   ```
    npm start
    ```
 
-8. To deploy website, run:
+Your browser should now open and show the app. Otherwise open http://localhost:3000/ in your browser. Editing files will automatically refresh the page.
 
-   ```bash
-    npm run build
-    npm run deploy
-   ```
+### What to do next?
 
-   Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](./READMEdocs/custom-deployment.md) and [pages.js](./pages.js)
+If you are new to React, you should watch a [basic React tutorial](https://www.youtube.com/results?search_query=react+tutorial) first.
 
-9. Congrats your site is up and running. To see it live, visit:
+If you already know React, then most of the information you need is in the [Material-UI documentation](https://material-ui.com/getting-started/usage/).
 
-   ```https
-     https://<your-username>.github.io/home
-   ```
+You can go into [src/theme.js](/src/theme.js) and change the primary and secondary color codes at the top of the script to the values you like and some magic will happen.
 
-10. To change the thumbnail image:
+## Deployment
 
-    - Navigate to the "public" folder.  
-    - There you will see "social-image.png".  
-    - Delete it.   
-    - Take a screenshot of your version and rename it "social-image.png" and place it there.  
-    
-   Next time if you make changes, repeat from step 8.
+If you are happy with the state of your website you can run:
 
-Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
+```
+npm run build 
+```
 
-## Contributing 🙌
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Contribute
+Show your support by ⭐ the project. Pull requests are always welcome.
 
-## Issues
+## License
 
-If anyone is looking to make some contribution, the following are issues that you can solve:
-
-- [ ] UI improvements
-- [ ] Code optimization
-- [x] Routing
-- [ ] SEO
-
-## Showcase 🚀
-
-Have you changed something in the code to create your own version? Feel free to share with me, I will list them in this space.
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/justiceserv/justiceserv.github.io">
-        <img src="READMEdocs/justiceserv-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Guhyun Chung</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/hamzasohail0/home/">
-        <img src="READMEdocs/hamzasohail0-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Hamza Sohail</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/AymunTariq/home/">
-        <img src="READMEdocs/aymuntariq-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Aymun Tariq</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/anaashrafi/home/">
-        <img src="READMEdocs/anaashrafi-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Ana Ashrafi</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/jefferyjohn/home/">
-        <img src="READMEdocs/jefferyjohn-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Jeffery John</b></sub>
-      </a>
-      <br />
-    </td>
-    <td align="center">
-      <a href="https://github.com/remimestdagh/home/">
-        <img src="READMEdocs/remimestdagh-github-io-home.gif" width="300px" alt="" />
-        <br />
-        <sub><b>Remi Mestdagh</b></sub>
-      </a>
-      <br />
-    </td>
-  </tr>
-</table>
-
-## Versão em Português :brazil:
-
-Esse projeto foi traduzido para português! Se você gostou dele e quer criar a sua própria versão, confira o repositório do [@tashima42](https://github.com/tashima42) em [https://github.com/Tashima42/home](https://github.com/Tashima42/home).
-Novas contribuições e revisões na tradução são muito bem vindas!
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/hashirshoaeb/home.svg)](https://starchart.cc/hashirshoaeb/home)
+This project is licensed under the MIT License - see the [LICENSE.md](https://wonderfullandingpage.github.io/Technology-LandingPage/blob/master/LICENSE) file for details.
