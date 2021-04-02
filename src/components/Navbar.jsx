@@ -12,10 +12,11 @@ const Navigation = React.forwardRef((props, ref) => {
   const navbarDimensions = useResizeObserver(navbarMenuRef);
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
 
+  const getTopDom = () => document.getElementById("top-sign");
   useScrollPosition(
     ({ prevPos, currPos }) => {
       if (!navbarDimensions) return;
-      currPos.y + ref.current.offsetTop - navbarDimensions.bottom > 5 ? setIsTop(true) : setIsTop(false);
+      currPos.y + getTopDom().offsetTop - navbarDimensions.bottom > 5 ? setIsTop(true) : setIsTop(false);
       setScrollPosition(currPos.y);
     },
     [navBottom]
@@ -25,12 +26,12 @@ const Navigation = React.forwardRef((props, ref) => {
     setTimeout(() => {
       try {
         if (!navbarDimensions) return;
-        navBottom - scrollPosition >= ref.current.offsetTop ? setIsTop(false) : setIsTop(true);
+        navBottom - scrollPosition >= getTopDom().offsetTop ? setIsTop(false) : setIsTop(true);
       } catch (e) {
         console.log(e);
       }
     }, 200);
-  }, [navBottom, navbarDimensions, ref.current, scrollPosition]);
+  }, [navBottom, navbarDimensions, getTopDom(), scrollPosition]);
 
   return (
     <Navbar ref={navbarMenuRef} className={` fixed-top  ${!isTop ? "navbar-white" : "navbar-transparent"}`} expand="lg">

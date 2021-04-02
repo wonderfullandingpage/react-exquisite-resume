@@ -1,6 +1,6 @@
 import React from "react";
-import { HashRouter, Route } from "react-router-dom";
-import { navBar, mainBody, about, leadership, works, skills, experiences } from "./config/config.js";
+import { HashRouter } from "react-router-dom";
+import {  mainBody, about, leadership, works, skills, experiences } from "./config/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -52,7 +52,7 @@ const App = () => {
   return (
     <HashRouter basename={process.env.PUBLIC_URL + "/"}>
       <Navbar ref={titleRef} />
-      <Route path="/" exact component={() => <Home ref={titleRef} />} />
+      <Home ref={titleRef} />
       <Footer />
     </HashRouter>
   );
