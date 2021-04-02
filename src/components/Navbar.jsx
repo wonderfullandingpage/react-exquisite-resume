@@ -25,9 +25,10 @@ const Navigation = React.forwardRef((props, ref) => {
     setTimeout(() => {
       try {
         if (!navbarDimensions) return;
-        if (!ref.current) return;
         navBottom - scrollPosition >= ref.current.offsetTop ? setIsTop(false) : setIsTop(true);
-      } catch (e) {}
+      } catch (e) {
+        console.log(e);
+      }
     }, 200);
   }, [navBottom, navbarDimensions, ref.current, scrollPosition]);
 
