@@ -22,9 +22,14 @@ const Navigation = React.forwardRef((props, ref) => {
   );
 
   React.useEffect(() => {
-    if (!navbarDimensions) return;
-    navBottom - scrollPosition >= ref.current.offsetTop ? setIsTop(false) : setIsTop(true);
-  }, [navBottom, navbarDimensions, ref, scrollPosition]);
+    setTimeout(() => {
+      try {
+        if (!navbarDimensions) return;
+        if (!ref.current) return;
+        navBottom - scrollPosition >= ref.current.offsetTop ? setIsTop(false) : setIsTop(true);
+      } catch (e) {}
+    }, 200);
+  }, [navBottom, navbarDimensions, ref.current, scrollPosition]);
 
   return (
     <Navbar ref={navbarMenuRef} className={` fixed-top  ${!isTop ? "navbar-white" : "navbar-transparent"}`} expand="lg">
