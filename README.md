@@ -8,9 +8,9 @@ A beautiful personal resume developed based on react. The design is atmospheric,
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=dunky11/react-saas-template)](https://dependabot.com)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-![](https://github.com/wonderfullandingpage/exquisite-resume/blob/master/public/images/a1.jpg?raw=true)
+![](https://github.com/wonderfullandingpage/exquisite-resume/blob/master/src/assets/b1.jpg?raw=true)
 
-![](https://github.com/wonderfullandingpage/exquisite-resume/blob/master/public/images/a2.jpg?raw=true)
+![](https://github.com/wonderfullandingpage/exquisite-resume/blob/master/src/assets/b2.jpg?raw=true)
 
 ###### The project forks from [here](https://github.com/hashirshoaeb/home) thanks to the original author.
 
