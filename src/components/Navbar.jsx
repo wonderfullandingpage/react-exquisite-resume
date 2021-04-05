@@ -30,7 +30,7 @@ const Navigation = React.forwardRef((props, ref) => {
       } catch (e) {
         console.log(e);
       }
-    }, 200);
+    }, 100);
   }, [navBottom, navbarDimensions, getTopDom(), scrollPosition]);
 
   return (
