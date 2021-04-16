@@ -2,15 +2,15 @@
 
 A beautiful personal resume developed based on react. The design is atmospheric, the code is developed based on [react](https://reactjs.org/) and [particles-bg](https://github.com/lindelof/particles-bg), and it has good scalability.
 
-[**Check out the demo**](https://wonderfullandingpage.github.io/exquisite-resume/)
+[**Check out the demo**](https://wonderfullandingpage.github.io/react-exquisite-resume/)
 
 ![Node.js CI](https://github.com/dunky11/react-saas-template/workflows/Node.js%20CI/badge.svg)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=dunky11/react-saas-template)](https://dependabot.com)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-![](https://github.com/wonderfullandingpage/exquisite-resume/blob/master/src/assets/b1.jpg?raw=true)
+![](https://github.com/wonderfullandingpage/react-exquisite-resume/blob/master/src/assets/b1.jpg?raw=true)
 
-![](https://github.com/wonderfullandingpage/exquisite-resume/blob/master/src/assets/b2.jpg?raw=true)
+![](https://github.com/wonderfullandingpage/react-exquisite-resume/blob/master/src/assets/b2.jpg?raw=true)
 
 ###### The project forks from [here](https://github.com/hashirshoaeb/home) thanks to the original author.
 
@@ -35,12 +35,12 @@ A beautiful personal resume developed based on react. The design is atmospheric,
 1. Clone the repository
 
    ```
-   git clone https://github.com/wonderfullandingpage/exquisite-resume
+   git clone https://github.com/wonderfullandingpage/react-exquisite-resume
    ```
 2. Install dependencies, this can take a minute
 
    ```
-   cd exquisite-resume
+   cd react-exquisite-resume
 
    npm install
    ```
