@@ -1,4 +1,4 @@
-# exquisite resume
+# react exquisite resume
 
 A beautiful personal resume developed based on react. The design is atmospheric, the code is developed based on [react](https://reactjs.org/) and [particles-bg](https://github.com/lindelof/particles-bg), and it has good scalability.
 
